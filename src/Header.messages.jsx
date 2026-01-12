@@ -6,6 +6,26 @@ const messages = defineMessages({
     defaultMessage: 'Courses',
     description: 'Link to the learner course dashboard',
   },
+  'header.links.home': {
+    id: 'header.links.home',
+    defaultMessage: 'Home',
+    description: 'Link to custom home page',
+  },
+  'header.links.elibrary': {
+    id: 'header.links.elibrary',
+    defaultMessage: 'eLibrary',
+    description: 'Link to custom eLibrary page',
+  },
+  'header.links.events': {
+    id: 'header.links.events',
+    defaultMessage: 'Events',
+    description: 'Link to custom events page',
+  },
+  'header.links.categories': {
+    id: 'header.links.categories',
+    defaultMessage: 'categories',
+    description: 'Link to custom Categories page',
+  },
   'header.links.programs': {
     id: 'header.links.programs',
     defaultMessage: 'Programs',

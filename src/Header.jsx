@@ -58,6 +58,26 @@ const Header = ({
       href: `${config.LMS_BASE_URL}/dashboard`,
       content: intl.formatMessage(messages['header.links.courses']),
     },
+    {
+      type: 'item',
+      href: `${config.LMS_BASE_URL}/home`,
+      content: intl.formatMessage(messages['header.links.home']),
+    },
+    {
+      type: 'item',
+      href: `${config.LMS_BASE_URL}/elibrary`,
+      content: intl.formatMessage(messages['header.links.elibrary']),
+    },
+    {
+      type: 'item',
+      href: `${config.LMS_BASE_URL}/categories`,
+      content: intl.formatMessage(messages['header.links.categories']),
+    },
+    {
+      type: 'item',
+      href: `${config.LMS_BASE_URL}/events`,
+      content: intl.formatMessage(messages['header.links.events']),
+    },
   ];
   const defaultUserMenu = authenticatedUser === null ? [] : [{
     heading: '',
